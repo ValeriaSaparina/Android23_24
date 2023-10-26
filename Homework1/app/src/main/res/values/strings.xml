@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Homework1</string>
+    <string name="click_me">Click me!</string>
+    <string name="homework1">Homework1</string>
+    <string name="input_something">Input something</string>
+    <string name="second_fragment">Second fragment</string>
+    <string name="third_fragment">Third fragment</string>
+    <string name="second">second</string>
+    <string name="first">first</string>
+    <string name="third">third</string>
+    <string name="save">save</string>
+</resources>
