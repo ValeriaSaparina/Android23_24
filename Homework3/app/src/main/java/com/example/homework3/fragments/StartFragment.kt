@@ -9,6 +9,7 @@ import com.example.homework3.BaseFragment
 import com.example.homework3.R
 import com.example.homework3.databinding.FragmentStartBinding
 import com.example.homework3.utils.Helper
+import com.example.homework3.utils.NewsGenerator
 
 class StartFragment : BaseFragment(R.layout.fragment_start) {
 
@@ -26,8 +27,8 @@ class StartFragment : BaseFragment(R.layout.fragment_start) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        NewsGenerator.removeAll()
         initListener()
-
         viewBinding?.apply {
             try {
                 enterBtn.isEnabled = numberEt.text.toString().toInt() > Helper.maxNews
@@ -54,6 +55,7 @@ class StartFragment : BaseFragment(R.layout.fragment_start) {
                         fragmentContainerId,
                         NewsFeedFragment.newInstance(number)
                     )
+                    .addToBackStack(null)
                     .commit()
             }
         }

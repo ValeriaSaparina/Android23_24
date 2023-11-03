@@ -115,4 +115,9 @@ object NewsGenerator {
         result.add(0, R.id.bottom_sheet_btn)
     }
 
+    fun removeAll() {
+        if (result.isNotEmpty()) result.clear()
+        if (newResult.isNotEmpty()) newResult.clear()
+    }
+
 }
