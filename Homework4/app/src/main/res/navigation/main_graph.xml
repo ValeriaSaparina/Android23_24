@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/mainFragment2">
+
+    <fragment
+        android:id="@+id/mainFragment2"
+        android:name="com.example.homework4.ui.fragments.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment2_to_notificationSettingsFragment2"
+            app:destination="@id/notificationSettingsFragment2" />
+        <action
+            android:id="@+id/action_mainFragment2_to_coroutineSettingsFragment2"
+            app:destination="@id/coroutineSettingsFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/notificationSettingsFragment2"
+        android:name="com.example.homework4.ui.fragments.NotificationSettingsFragment"
+        android:label="NotificationSettingsFragment"
+        tools:layout="@layout/fragment_notification_settings">
+        <action
+            android:id="@+id/action_notificationSettingsFragment2_to_mainFragment2"
+            app:destination="@id/mainFragment2" />
+        <action
+            android:id="@+id/action_notificationSettingsFragment2_to_coroutineSettingsFragment2"
+            app:destination="@id/coroutineSettingsFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/coroutineSettingsFragment2"
+        android:name="com.example.homework4.ui.fragments.CoroutineSettingsFragment"
+        android:label="CoroutineSettingsFragment"
+        tools:layout="@layout/fragment_coroutine_settings">
+        <action
+            android:id="@+id/action_coroutineSettingsFragment2_to_mainFragment2"
+            app:destination="@id/mainFragment2" />
+        <action
+            android:id="@+id/action_coroutineSettingsFragment2_to_notificationSettingsFragment2"
+            app:destination="@id/notificationSettingsFragment2" />
+    </fragment>
+</navigation>
