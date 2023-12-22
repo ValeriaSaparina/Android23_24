@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Homework4</string>
+    <string name="title">Title</string>
+    <string name="message">Message</string>
+    <string name="send_notification">Send notification</string>
+    <string name="click">Click</string>
+    <string name="coroutines_settings">Coroutines Settings</string>
+    <string name="is_async">is Async</string>
+    <string name="stop_on_background">Stop on background</string>
+    <string name="notifications_settings">Notifications settings</string>
+    <string name="importance">Importance</string>
+    <string name="private_visibility">Private</string>
+    <string name="public_visibility">Public</string>
+    <string name="secret_visibility">Secret</string>
+    <string name="visibility">Visibilty</string>
+    <string name="urgent_importance">Urgent</string>
+    <string name="high_importance">High</string>
+    <string name="medium_importance">Medium</string>
+    <string name="show_the_message_in_full">Show the message in full</string>
+    <string name="channel_name">Channel Name</string>
+    <string name="channel_description">Channel Description</string>
+    <string name="toast">toast</string>
+    <string name="home">Home</string>
+    <string name="no_internet_access">No internet access</string>
+    <string name="start">start</string>
+    <string name="add_action_buttons">Add action buttons</string>
+    <string name="enable_notifications_in_settings">Please enable notification access in settings</string>
+    <string name="open_setting">Open settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="permission_granted">Permission granted</string>
+</resources>
