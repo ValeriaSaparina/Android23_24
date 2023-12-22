@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Homework5</string>
+    <string name="authorisation">Authorisation</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="auth">auth</string>
+    <string name="reg">Registration</string>
+    <string name="phone">Phone</string>
+    <string name="name">Name</string>
+    <string name="edit">Edit</string>
+    <string name="save">save</string>
+    <string name="delete_profile">Delete profile</string>
+    <string name="exit">exit</string>
+    <string name="list_movies_is_empty">List movies is empty</string>
+    <string name="movies">Movies</string>
+    <string name="add_movie">Add movie</string>
+    <string name="profile">Profile</string>
+    <string name="rate">Rate</string>
+    <string name="restore_account">Do you want to restore your account?</string>
+    <string name="restore">Restore</string>
+    <string name="delete">Delete</string>
+    <string name="release_date">Release date</string>
+    <string name="description">Description</string>
+
+    <string-array name="filter_options">
+        <item>Year ascending</item>
+        <item>Year descending</item>
+        <item>Rate ascending</item>
+        <item>Rate descending</item>
+    </string-array>
+</resources>
