@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Homework6</string>
+
+    <string name="enter_city">Enter city</string>
+    <string name="current_weather_for">Current weather for %s:</string>
+    <string name="temp">%s °C</string>
+
+    <string name="app_name_debug">App name: %s</string>
+    <string name="base_url_debug">Base URL: %s</string>
+    <string name="app_version_debug">Version name: %s; Version code: %s</string>
+    <string name="device_model_debug">Producer: %s; Model: %s</string>
+    <string name="android_version_debug">Android: %s (API %s)</string>
+    <string name="loading_wait">The data is being loading. Please wait</string>
+
+    <string name="bad_request_exception">Enter the correct data</string>
+    <string name="user_not_authorized">User is not authorized</string>
+    <string name="data_not_found">Data is not found</string>
+    <string name="too_many_requests">Too many requests</string>
+    <string name="unexpected_error">Unexpected error</string>
+    <string name="load_weather">Load weather</string>
+    <string name="weather_icon">Weather icon</string>
 </resources>
